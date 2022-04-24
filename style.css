@@ -1,0 +1,159 @@
+img {
+    width: 300px;
+    
+}
+
+.container {
+    /* задаю цвет всему контейнеру */
+    background: aquamarine;
+    /* контейнер по центру сверху и снизу по 50px */
+    margin: 30px auto ;
+    border: 5px solid green;
+    /* располагаем элементы в линию */
+    display: flex;
+    /* располагаем флекс-элемнты по центру */
+    justify-content: center;
+    /* задаем высоту всему контейнеру */
+    height: 250px;
+    /* выравниваем флекс элементы внутри контейнера в перпендикулярном направлении
+    Двигаем блоки внутри родительского контейнера*/
+    /* align-items:center; */
+    /* перенос элементов на новую строку при уменьшении ширины экрана */
+    /* flex-wrap: wrap; */
+    /* задает направление осей в контейнере */
+    /* flex-direction: column; */
+
+  
+}
+.container h1 {
+    background: aquamarine;
+    border: 1px solid blue;
+    /* разрешаю элементу вытягиваться по всему сводобному пространству */
+    flex-grow: 1;
+    /* при сужении контейнера указываю как себя вести
+    по умолчанию стоит 1 */
+    flex-shrink: 0;
+}
+
+.menu {
+    background: aquamarine;
+    border: 1px solid blue;
+     /* разрешаю элементу вытягиваться по всему сводобному пространству
+     по умолчанию стоит 0 */
+    flex-grow: 1;
+    
+}
+
+.logo {
+    background: aquamarine;
+    border: 1px solid blue;
+     /* разрешаю элементу вытягиваться по всему сводобному пространству */
+    flex-grow: 1;
+}
+
+
+
+
+
+
+
+.container1 {
+    background: rgb(255,27, 227);
+    /* задаю высоту контейнера */
+    height: 250px;
+    display: block;
+    border: 5px solid green;
+    display: flex;
+    /* флекс элементы распределились по ширине контейнера */
+    justify-content: space-between;
+    align-items: center;
+    /* располагаем элемнты в столбик */
+    /* flex-direction: column; */
+    /* flex-shrink: 0; */
+}
+
+
+.container1 h1 {
+    background: rgb(255,27, 227);
+    border: 1px solid indigo;
+    /* меняем последовательность флекс-элементов */
+    order: 3;
+    flex-basis: 20%;
+    /* раполагаем элент между 2мя элентами */
+    align-self: baseline;
+    
+}
+
+.menu1 {
+    background: rgb(255,27, 227);
+    border: 1px solid indigo;
+    order: 1;
+    /* элемент занял 50% от родительского блока */
+    flex-basis: 50%;
+    /* прижимаем элемент к верху контейнера */
+    align-self: flex-start;
+    
+}
+
+.logo1 {
+    background: rgb(255,27, 227);
+    border: 1px solid indigo;
+    order: 2;
+    /* Прижимаем элемент к низу контейнера */
+    align-self: flex-end;
+}
+
+
+
+
+.container2 {
+    /* не задаю высоту в этом контейнере */
+    background: darkorange;
+    margin: 30px auto;
+    border: 5px solid green;
+    /* height: 200px; */
+    display: flex;
+    /* разместили элементы в колонку поменяли расположение с конца */
+    flex-direction: column;
+    /* задали значение в конуе контейнера */
+    align-items: flex-end;
+
+}
+
+.container2 h1 {
+    background: darkorange;
+    border: 1px solid black;
+    /* рапологаем элент по центру контейнера */
+    align-self: center;
+   
+}
+
+.menu2 {
+    background: darkorange;
+    border: 1px solid black;
+    /* располагаем элемент по всей ширине контейнера */
+    align-self:stretch;
+    /* задаем расположение элемента внизу контейнера */
+    order: 3;
+}
+
+.logo2 {
+    background: darkorange;
+    border: 1px solid black;
+   
+}
+
+.flexbox {
+    background: lightskyblue;
+    height: 100px;
+    
+}
+
+.flexbox a {
+    color: brown;
+    font-weight: bolder;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid salmon;
+}
