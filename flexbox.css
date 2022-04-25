@@ -15,6 +15,7 @@ body {
 
 /* Задаю значение заголовкам */
 .title {
+    /* заглавные буквы */
     text-transform: uppercase;
     font-size: 25px;
     font-weight: 700;

@@ -41,6 +41,12 @@ body {
 
 img {
     border-radius: 10px;
+    /* background: bisque; */
+}
+
+.card_img {
+    background: rgb(172, 172, 231);
+    border: 1px solid black;
 }
 
 .description {
@@ -69,6 +75,7 @@ img {
     padding: 10px 0;
     font-size: 16px;
     font-weight: 700;
+    text-align: right;
 }
 
 a {
@@ -85,8 +92,33 @@ a:hover {
  padding: 5px;
 }
 
+.card_a {
+    background: seagreen;
+    padding: 20px 10px;
+    max-width: 1000px;
+    margin: 10px auto;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
 @media screen and (max-width: 768px) {
-    
+    .wrapper {
+        min-width: 400px;
+    }
+    .card_img {
+        align-items: center;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        /* min-width: 400px; */  
+    }
+
+    .title_a {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 420px) {
