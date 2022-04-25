@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 50px auto;
+    background: darkgray;
+    border: 1px solid black;
+}
+
+.title {
+    background: rgb(194, 230, 198);
+    border: 1px solid black;
+    margin: 20px 15px;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.flex_container {
+    background: orchid;
+    border: 1px solid black;
+    margin: 10px 15px;
+    padding: 10px;
+    /* изначальное состояние */
+    display: block;
+}
+
+.card {
+    background: rgb(243, 195, 241);
+    border: 1px solid black;
+    padding: 10px 0px;
+    display: flex;
+    /* задала положение элементов карты по центру */
+    align-items: center;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.description {
+    background: yellow;
+    border: 1px solid black;
+    padding: 0 10px 10px 10px;
+}
+
+.title_card {
+    background: rgb(230, 225, 225);
+    font-size: 20px;
+    font-weight: 600;
+    /* text-align: right; */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.title_text {
+    background: seashell;
+    padding: 10px 0px;
+    text-align: justify;
+}
+
+.title_a {
+    background: silver;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+    /* border: 1px solid red;    */
+    letter-spacing: 1px;
+
+}
+
+a:hover {
+ background-color: blanchedalmond;
+ border-radius: 10px;
+ padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 420px) {
+    
+}
